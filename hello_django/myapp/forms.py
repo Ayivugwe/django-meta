@@ -1,4 +1,6 @@
 from django import forms
 
 class MyForm(forms.Form):
-    name= forms.CharField()
+    firstname= forms.CharField()
+    lastname = forms.CharField()
+    
